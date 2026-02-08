@@ -5,7 +5,7 @@ import pandas as pd
 
 class Visualizer:
     def plot_result(self, model, X_tensor, scaler, original_df, ticker):
-        print("📊 Generating Custom Chart...")
+        print("Generating Custom Chart...")
         
         model.eval()
         with torch.no_grad():
